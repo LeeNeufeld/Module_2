@@ -1,0 +1,49 @@
+body{
+	box-sizing: border-box;
+	margin: 10px;
+
+}
+h4{
+	border: thin solid red;
+	align-self: left;
+}
+
+
+@media (min-width: 992px){
+	.col-lg-4{
+		float: left;
+		width: 33%;
+		border: 1px solid blue;
+		margin: 1px;
+		box-sizing: border-box;
+		padding: 5px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6{
+		float:left;
+		width: 50%;
+		border: 1px solid blue;
+		margin-bottom: 5px;
+		box-sizing: border-box;
+		padding: 5px;
+	}
+	.col-md-12{
+		width: 100%;
+		border: 1px solid blue;
+		padding: 5px;
+		box-sizing: border-box;
+		float: left;
+	}
+}
+
+@media (max-width: 767px){
+	.col-sm-12{
+		width: 100%;
+		border: 1px solid blue;
+		margin: 5px;
+		padding: 5px;
+		box-sizing: border-box;
+	}
+}
