@@ -1,11 +1,36 @@
-body{
+
+*{
 	box-sizing: border-box;
+}
+
+body{
+	
 	margin: 10px;
 
 }
-h4{
-	border: thin solid red;
-	align-self: left;
+
+#p1 {
+	background-color: pink;
+}
+
+#p2 {
+	background-color: pink;
+}
+
+#p3 {
+	background-color: pink;
+}
+section{
+	margin-left: 450px;
+	margin-top: 0;
+	background-color: grey;
+	border-width: 50%;
+	border: solid black; 
+	width: 25%;
+	padding: 5px;
+	text-align:right;
+	font-size: large;
+	font-weight: bold;
 }
 
 
